@@ -26,11 +26,41 @@
 
 * Spring
 * NestJS
-* typescript
+* Typescript
 * C
 * C++
 * Java
-* python
+* Python
 
 
-## 
+## 프로젝트
+
+* ### [쉽고 간편한 이슈관리 서비스 - Code Planner (5인 프로젝트)](https://github.com/jkh1447/Codeplanner_Frontend)
+  ##### 2025-06-19 ~ 2025-07-26 (40일)
+
+  기존의 이슈트래킹 서비스인 Jira를 클론코딩하고 편의성을 더한 이슈 트래킹 서비스입니다.
+
+  [ 적용 기술 및 도구 ]
+  
+  NestJS, NextJS, PostgreSQL, Github Action
+
+  <br>
+  [ 기여 ]
+
+  * 레이아웃 UI 및 칸반보드 제작
+  * 알림 기능 구현
+  * 댓글 및 멘션기능 구현
+  * github webhook 연동 기능 구현
+
+  <br>
+  [ 문제 해결 ]
+
+  * 칸반보드에서 이슈카드를 여러 번 움직일 때 간헐적으로 React에서 Maximum depth exceeded 문제 발생
+    원인은 드래그중 발생하는 과도한 상태 업데이트였고, 이를 디바운싱 기법을 이용하여 해결하였음.
+  
+    
+  
+  
+
+  
+  
